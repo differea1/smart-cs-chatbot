@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -18,7 +18,7 @@ ssl/
 
 # Node
 node_modules/
-frontend/dist/
+# frontend/dist/ - committed for GitHub Pages
 
 # IDE
 .vscode/
