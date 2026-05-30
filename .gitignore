@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Database
+*.db
+backend/data/
+
+# Environment (keep template, ignore real secrets)
+backend/.env
+backend/.env.prod
+
+# SSL certs
+ssl/
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android
+frontend/android/app/build/
+frontend/android/.gradle/
+frontend/android/build/
+
+# Temporary
+*.tmp
+*.log

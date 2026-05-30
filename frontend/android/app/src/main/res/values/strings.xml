@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">极米智能售后助手</string>
+    <string name="title_activity_main">极米智能售后助手</string>
+    <string name="package_name">com.xgimi.cs.chatbot</string>
+    <string name="custom_url_scheme">com.xgimi.cs.chatbot</string>
+</resources>
