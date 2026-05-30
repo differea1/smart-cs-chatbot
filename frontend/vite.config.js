@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url'
 
 export default defineConfig(({ mode }) => ({
   plugins: [vue()],
-  base: mode === 'capacitor' ? './' : '/',
+  base: mode === 'pages' ? '/smart-cs-chatbot/' : mode === 'capacitor' ? './' : '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
